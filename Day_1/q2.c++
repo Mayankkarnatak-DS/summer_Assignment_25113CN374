@@ -2,11 +2,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int n,m;
+    int num,m;
     cout <<"Enter the number:";
-    cin>> n;
+    cin>> num;
     for (int i=1;i<=10;i++){
-        m=n*i;
+        m=num*i;
         cout<<m<<endl;
     }
     return 0;

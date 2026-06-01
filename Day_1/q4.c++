@@ -2,12 +2,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int count=0,n;
+    int count=0,num;
     cout<<"Enter the number:";
-    cin>>n;
-    while(n!=0){
+    cin>>num;
+    while(num!=0){
         count+=1;
-        n=n/10;
+        num=num/10;
     }
     cout<<"The number of digits are:"<<count;
     return 0;

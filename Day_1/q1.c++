@@ -2,10 +2,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int n,s=0;
+    int num,s=0;
     cout<<"Enter N:";
-    cin>> n;
-    for(int i=1;i<=n;i++){
+    cin>> num;
+    for(int i=1;i<=num;i++){
         s+=i;
     }
     cout<<"The sum is:"<<s<<endl;
