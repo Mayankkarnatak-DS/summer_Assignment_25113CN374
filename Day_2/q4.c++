@@ -2,13 +2,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int num,rev=0,temp,r;
+    int num,rev=0,temp,rem;
     cout<<"Enter the number:";
     cin>>num;
     temp=num;
     while(num!=0){
-        r=num%10;
-        rev=rev*10+r;
+        rem=num%10;
+        rev=rev*10+rem;
         num/=10;
     }
     if(rev==temp){

@@ -2,13 +2,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int n,s=0,r;
+    int num,s=0,r;
     cout<<"Enter the number:";
-    cin>>n;
-    while(n!=0){
-        r=n%10;
+    cin>>num;
+    while(num!=0){
+        r=num%10;
         s+=r;
-        n=n/10;
+        num=num/10;
     }
 cout<<"The sum of the digits is:"<<s<<endl;
 return 0;
