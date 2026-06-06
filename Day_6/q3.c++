@@ -1,4 +1,4 @@
-//
+//counting bits of a number:
 #include <iostream>
 using namespace std;
 
